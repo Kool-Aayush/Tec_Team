@@ -175,7 +175,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-display font-bold text-secondary text-glow">Meet Our Team</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto italic">The creative minds behind the TEC_TEAM emotional wellness platform.</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
             {teamMembers.map((member, idx) => (
               <motion.div 
                 key={member.name}
@@ -183,18 +183,18 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.1 }}
                 viewport={{ once: true }}
-                className="group p-6 rounded-2xl bg-card/40 border border-white/5 hover:border-secondary/50 transition-all hover:-translate-y-2 text-center"
+                className="group p-6 rounded-2xl bg-card/40 border border-white/5 hover:border-secondary/50 transition-all hover:-translate-y-2 text-center flex flex-col items-center"
               >
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full border-2 border-secondary/30 p-1">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full border-2 border-secondary/30 p-1 group-hover:border-secondary transition-colors">
                   <img src={member.image} alt={member.name} className="w-full h-full rounded-full bg-secondary/10" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
-                <p className="text-secondary text-sm font-mono mb-3 uppercase tracking-wider">{member.role}</p>
-                <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{member.description}</p>
-                <div className="flex justify-center gap-4">
-                  <Github className="w-4 h-4 text-muted-foreground hover:text-primary transition-colors cursor-pointer" />
-                  <Twitter className="w-4 h-4 text-muted-foreground hover:text-primary transition-colors cursor-pointer" />
-                  <Linkedin className="w-4 h-4 text-muted-foreground hover:text-primary transition-colors cursor-pointer" />
+                <h3 className="text-lg font-bold text-foreground line-clamp-1">{member.name}</h3>
+                <p className="text-secondary text-[10px] font-mono mb-3 uppercase tracking-wider">{member.role}</p>
+                <p className="text-xs text-muted-foreground mb-4 line-clamp-3 h-12">{member.description}</p>
+                <div className="flex justify-center gap-3 mt-auto">
+                  <Github className="w-3.5 h-3.5 text-muted-foreground hover:text-primary transition-colors cursor-pointer" />
+                  <Twitter className="w-3.5 h-3.5 text-muted-foreground hover:text-primary transition-colors cursor-pointer" />
+                  <Linkedin className="w-3.5 h-3.5 text-muted-foreground hover:text-primary transition-colors cursor-pointer" />
                 </div>
               </motion.div>
             ))}

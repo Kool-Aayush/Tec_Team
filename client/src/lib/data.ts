@@ -77,6 +77,13 @@ export const teamMembers: Member[] = [
     description: "Leading the team towards better mental health solutions.",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena",
     socials: { github: "#", twitter: "#", linkedin: "#" }
+  },
+  {
+    name: "Maya Sharma",
+    role: "Content & Research",
+    description: "Curating soulful content and meaningful activities for every mood.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maya",
+    socials: { github: "#", twitter: "#", linkedin: "#" }
   }
 ];
 
