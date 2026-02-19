@@ -1,0 +1,249 @@
+🌐 Full Website Development Prompt
+Project Name: TEC_TEAM – Things to Do When You Are ____
+
+Create a modern, responsive website using HTML, CSS, and JavaScript.
+
+🎨 Brand Identity
+
+Team Name: TEC_TEAM
+
+Design a clean, futuristic tech-style logo using the name TEC_TEAM.
+
+Style Guidelines:
+
+Dark theme (Black / Deep Navy)
+
+Neon blue / cyan highlights
+
+Smooth animations
+
+Glassmorphism or soft glowing cards
+
+Modern sans-serif font
+
+🧠 Website Concept
+Main Title:
+“Things to Do When You Are ____.”
+
+This website helps people manage their emotions by showing:
+
+Activities to do
+
+Motivational quotes
+
+Multilingual songs (Hindi, Nepali, English)
+
+Positive support
+
+Users can:
+
+Click feeling buttons
+
+OR type their feeling manually
+
+📌 Website Sections
+1️⃣ Header
+
+TEC_TEAM logo (left side)
+
+Navigation menu:
+
+Home
+
+Feelings
+
+About
+
+Our Team
+
+Contact
+
+Smooth scroll animation
+
+Sticky navbar
+
+2️⃣ Hero Section
+
+Large animated heading:
+
+“Things to Do When You Are ____.”
+
+Features:
+
+Feeling buttons (Sad, Angry, Lonely, Happy, Stressed, Overthinking, Confused, Unmotivated)
+
+OR input field to type mood
+
+Animated typing effect
+
+Background gradient animation
+
+3️⃣ Suggestions + Songs Section
+
+When user selects a feeling:
+
+Show:
+
+5–7 helpful activities
+
+1 motivational quote
+
+Multilingual songs section
+
+🎵 Song Examples by Mood
+😔 When You Are Sad
+
+English:
+
+Fix You – Coldplay
+
+Someone Like You – Adele
+
+Hindi:
+
+Channa Mereya – Ae Dil Hai Mushkil
+
+Agar Tum Saath Ho – Tamasha
+
+Nepali:
+
+Timro Yaad – The Edge Band
+
+😊 When You Are Happy
+
+English:
+
+Happy – Pharrell Williams
+
+Hindi:
+
+Ilahi – Yeh Jawaani Hai Deewani
+
+Nepali:
+
+Kutu Ma Kutu – Dui Rupaiyan
+
+😡 When You Are Angry
+
+English:
+
+Believer – Imagine Dragons
+
+Hindi:
+
+Zinda – Bhaag Milkha Bhaag
+
+Nepali:
+
+Hamro Nepal Ma – Neetesh Jung Kunwar
+
+👥 4️⃣ About Section
+About TEC_TEAM
+
+Create a professional section explaining:
+
+TEC_TEAM is a creative tech group.
+
+The goal is to combine technology and emotional wellness.
+
+The website helps people manage feelings through music and small positive actions.
+
+Focus on mental health awareness and digital innovation.
+
+Built using HTML, CSS, JavaScript.
+
+Add:
+
+Animated cards
+
+Icons for mission & vision
+
+Subtle fade-in effects
+
+👨‍💻 5️⃣ Our Group Members Section
+
+Create a stylish team section with:
+
+Layout:
+
+Grid of member cards
+
+Circular profile image
+
+Name
+
+Role
+
+Short description
+
+Social media icons
+
+Example Members:
+
+Member 1 – Frontend Developer
+
+Member 2 – UI/UX Designer
+
+Member 3 – JavaScript Developer
+
+Member 4 – Content & Research
+
+Member 5 – Project Manager
+
+Add:
+
+Hover glow effect
+
+Slide-up animation
+
+Responsive layout
+
+📞 6️⃣ Contact Section
+
+Contact form (Name, Email, Message)
+
+Submit button with hover effect
+
+JavaScript validation
+
+Footer with TEC_TEAM branding
+
+⚙️ Technical Requirements
+
+Use:
+
+Semantic HTML5
+
+CSS Flexbox or Grid
+
+JavaScript for:
+
+Dynamic mood detection
+
+Song rendering
+
+Suggestion generation
+
+Motivational quote randomizer
+
+Dark/Light mode toggle
+
+localStorage for last mood
+
+Optional:
+
+YouTube embedded song previews
+
+Smooth scroll behavior
+
+Animated typing effect
+
+📱 Responsive Design
+
+Must work on:
+
+Mobile
+
+Tablet
+
+Desktop

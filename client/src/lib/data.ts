@@ -7,7 +7,13 @@ import {
   Brain, 
   BatteryLow, 
   HelpCircle,
-  LucideIcon 
+  LucideIcon,
+  Github,
+  Twitter,
+  Linkedin,
+  Mail,
+  Target,
+  Eye
 } from "lucide-react";
 
 export interface Song {
@@ -21,15 +27,58 @@ export interface ActivityItem {
   text: string;
 }
 
+export interface Member {
+  name: string;
+  role: string;
+  description: string;
+  image: string;
+  socials: {
+    github?: string;
+    twitter?: string;
+    linkedin?: string;
+  };
+}
+
 export interface MoodData {
   id: string;
   label: string;
   color: string;
   icon: LucideIcon;
   activities: ActivityItem[];
-  quotes: string[]; // Changed to array
+  quotes: string[];
   songs: Song[];
 }
+
+export const teamMembers: Member[] = [
+  {
+    name: "Alex Chen",
+    role: "Frontend Developer",
+    description: "Specializing in React and framer-motion animations.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+    socials: { github: "#", twitter: "#", linkedin: "#" }
+  },
+  {
+    name: "Sarah Miller",
+    role: "UI/UX Designer",
+    description: "Creating intuitive and beautiful emotional wellness interfaces.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+    socials: { github: "#", twitter: "#", linkedin: "#" }
+  },
+  {
+    name: "Raj Patel",
+    role: "JavaScript Developer",
+    description: "Expert in complex logic and dynamic data rendering.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Raj",
+    socials: { github: "#", twitter: "#", linkedin: "#" }
+  },
+  {
+    name: "Elena Vogt",
+    role: "Project Manager",
+    description: "Leading the team towards better mental health solutions.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena",
+    socials: { github: "#", twitter: "#", linkedin: "#" }
+  }
+];
 
 export const moods: MoodData[] = [
   {
