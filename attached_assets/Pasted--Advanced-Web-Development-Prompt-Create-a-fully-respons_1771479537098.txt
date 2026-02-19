@@ -1,0 +1,170 @@
+🌐 Advanced Web Development Prompt
+
+Create a fully responsive, modern website using HTML, CSS, and JavaScript.
+
+🎨 Brand Identity
+
+Team Name: TEC_TEAM
+Design a modern tech-style logo using the name TEC_TEAM.
+
+Style:
+
+Dark futuristic theme
+
+Neon blue / cyan glow effects
+
+Minimal, clean layout
+
+Smooth animations
+
+🧠 Website Concept
+Title:
+“Things to Do When You Are ____.”
+
+This website helps users manage personal feelings by giving:
+
+Activities to do
+
+Motivational suggestions
+
+Curated songs (Hindi, Nepali, English) based on the feeling
+
+🎯 Interactive Feature
+
+User can:
+
+Click on feeling buttons (Sad, Angry, Lonely, Happy, Stressed, Overthinking, Unmotivated, Confused)
+OR
+
+Type their own feeling
+
+When selected:
+
+Show helpful activities
+
+Show motivational quote
+
+Show a playlist section with songs
+
+🎵 Songs Section (Multilingual Playlist)
+
+When a feeling is selected, dynamically display songs using JavaScript.
+
+😔 When You Are Sad
+Things to Do:
+
+Listen to music
+
+Journal your feelings
+
+Talk to someone
+
+Watch comfort videos
+
+🎧 English Songs:
+
+Fix You – by Coldplay
+
+Someone Like You – by Adele
+
+Let Her Go – by Passenger
+
+🎵 Hindi Songs:
+
+Channa Mereya – from Ae Dil Hai Mushkil
+
+Agar Tum Saath Ho – from Tamasha
+
+Tadap Tadap – from Hum Dil De Chuke Sanam
+
+🎶 Nepali Songs:
+
+Timro Yaad – by The Edge Band
+
+Maya – by Asif Shah
+
+😡 When You Are Angry
+Things to Do:
+
+Deep breathing
+
+Workout
+
+Listen to energetic music
+
+Write what you feel
+
+🎧 English Songs:
+
+Stronger – by Kanye West
+
+Believer – by Imagine Dragons
+
+🎵 Hindi Songs:
+
+Zinda – from Bhaag Milkha Bhaag
+
+Kar Har Maidaan Fateh – from Sanju
+
+🎶 Nepali Songs:
+
+Hamro Nepal Ma – by Neetesh Jung Kunwar
+
+😊 When You Are Happy
+Things to Do:
+
+Dance
+
+Share positivity
+
+Celebrate small wins
+
+🎧 English Songs:
+
+Happy – by Pharrell Williams
+
+Can’t Stop the Feeling! – by Justin Timberlake
+
+🎵 Hindi Songs:
+
+Ilahi – from Yeh Jawaani Hai Deewani
+
+Gallan Goodiyan – from Dil Dhadakne Do
+
+🎶 Nepali Songs:
+
+Kutu Ma Kutu – from Dui Rupaiyan
+
+💻 Technical Requirements
+
+Use:
+
+Semantic HTML5
+
+CSS Flexbox/Grid
+
+JavaScript for:
+
+Dynamic feeling detection
+
+Rendering activities
+
+Rendering song lists
+
+Optional embedded YouTube iframe player
+
+localStorage to save last mood
+
+✨ Extra Features
+
+Random motivational quotes generator
+
+Typing animation for the blank word
+
+Music preview player (YouTube embed)
+
+Smooth fade-in animation
+
+Dark/Light mode toggle
+
+Fully responsive (mobile + tablet + desktop)
