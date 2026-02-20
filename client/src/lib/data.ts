@@ -8,12 +8,9 @@ import {
   BatteryLow, 
   HelpCircle,
   LucideIcon,
-  Github,
-  Twitter,
-  Linkedin,
-  Mail,
-  Target,
-  Eye
+  Instagram,
+  Facebook,
+  Linkedin
 } from "lucide-react";
 
 export interface Song {
@@ -33,8 +30,8 @@ export interface Member {
   description: string;
   image: string;
   socials: {
-    github?: string;
-    twitter?: string;
+    instagram?: string;
+    facebook?: string;
     linkedin?: string;
   };
 }
@@ -51,39 +48,50 @@ export interface MoodData {
 
 export const teamMembers: Member[] = [
   {
-    name: "Alex Chen",
+    name: "Aayush Rajbhandari",
     role: "Frontend Developer",
-    description: "Specializing in React and framer-motion animations.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
-    socials: { github: "#", twitter: "#", linkedin: "#" }
+    description: "Overall development of the platform and frontend architecture.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aayush",
+    socials: { 
+      instagram: "https://www.instagram.com/rajbhandariayush/", 
+      linkedin: "https://www.linkedin.com/in/aayush-rajbhandari-2b7521399/" 
+    }
   },
   {
-    name: "Sarah Miller",
-    role: "UI/UX Designer",
-    description: "Creating intuitive and beautiful emotional wellness interfaces.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
-    socials: { github: "#", twitter: "#", linkedin: "#" }
+    name: "Aadesh Raj Gurung",
+    role: "UI Auditor",
+    description: "Responsible for rating, seeing interfaces, and providing expert tips.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aadesh",
+    socials: { 
+      instagram: "https://www.instagram.com/_argrg/" 
+    }
   },
   {
-    name: "Raj Patel",
-    role: "JavaScript Developer",
-    description: "Expert in complex logic and dynamic data rendering.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Raj",
-    socials: { github: "#", twitter: "#", linkedin: "#" }
+    name: "Prerana Rajbanshi",
+    role: "Content Lead",
+    description: "Curating content, information, and high-quality prompts.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Prerana",
+    socials: { 
+      facebook: "https://www.facebook.com/prerana.rajbanshi" 
+    }
   },
   {
-    name: "Elena Vogt",
-    role: "Project Manager",
-    description: "Leading the team towards better mental health solutions.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena",
-    socials: { github: "#", twitter: "#", linkedin: "#" }
+    name: "Anmol Bista",
+    role: "Design Modeler",
+    description: "Overall rating, modeling, and physical wireframe design.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Anmol",
+    socials: { 
+      instagram: "https://www.instagram.com/anmolbista7771/" 
+    }
   },
   {
-    name: "Maya Sharma",
-    role: "Content & Research",
-    description: "Curating soulful content and meaningful activities for every mood.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maya",
-    socials: { github: "#", twitter: "#", linkedin: "#" }
+    name: "Vision Bohara",
+    role: "Quality Assurance",
+    description: "Overall rating and project validation expert.",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Vision",
+    socials: { 
+      facebook: "https://www.facebook.com/vision.bohara7" 
+    }
   }
 ];
 
@@ -107,14 +115,12 @@ export const moods: MoodData[] = [
       "Every storm runs out of rain."
     ],
     songs: [
+      { title: 'The Night We Met', artist: 'Lord Huron', lang: 'English' },
       { title: 'Fix You', artist: 'Coldplay', lang: 'English' },
-      { title: 'Someone Like You', artist: 'Adele', lang: 'English' },
-      { title: 'Let Her Go', artist: 'Passenger', lang: 'English' },
-      { title: 'Channa Mereya', artist: 'Ae Dil Hai Mushkil', lang: 'Hindi' },
-      { title: 'Agar Tum Saath Ho', artist: 'Tamasha', lang: 'Hindi' },
-      { title: 'Tadap Tadap', artist: 'Hum Dil De Chuke Sanam', lang: 'Hindi' },
-      { title: 'Timro Yaad', artist: 'The Edge Band', lang: 'Nepali' },
-      { title: 'Maya', artist: 'Asif Shah', lang: 'Nepali' }
+      { title: 'Tum Se Hi', artist: 'Mohit Chauhan', lang: 'Hindi' },
+      { title: 'Kabira', artist: 'Tochi Raina', lang: 'Hindi' },
+      { title: 'Phulbutte Sari', artist: 'Marvel', lang: 'Nepali' },
+      { title: 'Parelima', artist: '1974 AD', lang: 'Nepali' }
     ]
   },
   {
@@ -136,14 +142,12 @@ export const moods: MoodData[] = [
       "Hold your peace."
     ],
     songs: [
-      { title: 'Stronger', artist: 'Kanye West', lang: 'English' },
-      { title: 'Believer', artist: 'Imagine Dragons', lang: 'English' },
-      { title: 'In The End', artist: 'Linkin Park', lang: 'English' },
-      { title: 'Zinda', artist: 'Bhaag Milkha Bhaag', lang: 'Hindi' },
-      { title: 'Kar Har Maidaan Fateh', artist: 'Sanju', lang: 'Hindi' },
-      { title: 'Apna Time Aayega', artist: 'Gully Boy', lang: 'Hindi' },
-      { title: 'Hamro Nepal Ma', artist: 'Neetesh Jung Kunwar', lang: 'Nepali' },
-      { title: 'Aago', artist: 'Cobweb', lang: 'Nepali' }
+      { title: 'Natural', artist: 'Imagine Dragons', lang: 'English' },
+      { title: 'Thunder', artist: 'Imagine Dragons', lang: 'English' },
+      { title: 'Zinda', artist: 'Siddharth Mahadevan', lang: 'Hindi' },
+      { title: 'Kar Har Maidaan Fateh', artist: 'Sukhwinder Singh', lang: 'Hindi' },
+      { title: 'Aago', artist: 'Cobweb', lang: 'Nepali' },
+      { title: 'Hamro Nepal Ma', artist: 'Neetesh Jung Kunwar', lang: 'Nepali' }
     ]
   },
   {
@@ -165,14 +169,12 @@ export const moods: MoodData[] = [
       "Enjoy the little things."
     ],
     songs: [
+      { title: 'Better When I\'m Dancin\'', artist: 'Meghan Trainor', lang: 'English' },
       { title: 'Happy', artist: 'Pharrell Williams', lang: 'English' },
-      { title: 'Can’t Stop the Feeling!', artist: 'Justin Timberlake', lang: 'English' },
-      { title: 'Uptown Funk', artist: 'Mark Ronson ft. Bruno Mars', lang: 'English' },
-      { title: 'Ilahi', artist: 'Yeh Jawaani Hai Deewani', lang: 'Hindi' },
-      { title: 'Gallan Goodiyan', artist: 'Dil Dhadakne Do', lang: 'Hindi' },
-      { title: 'Sooraj Dooba Hain', artist: 'Roy', lang: 'Hindi' },
-      { title: 'Kutu Ma Kutu', artist: 'Dui Rupaiyan', lang: 'Nepali' },
-      { title: 'Paan Ko Paat', artist: 'Traditional/Remix', lang: 'Nepali' }
+      { title: 'Mast Magan', artist: 'Arijit Singh', lang: 'Hindi' },
+      { title: 'Uff Teri Ada', artist: 'Shankar Mahadevan', lang: 'Hindi' },
+      { title: 'Kutu Ma Kutu', artist: 'Rajan Raj Siwakoti', lang: 'Nepali' },
+      { title: 'Maya Luki Luki', artist: 'Tika Prasain', lang: 'Nepali' }
     ]
   },
   {
@@ -194,11 +196,12 @@ export const moods: MoodData[] = [
       "Embrace your own company."
     ],
     songs: [
-      { title: 'Astronaut in the Ocean', artist: 'Masked Wolf', lang: 'English' },
-      { title: 'Lonely', artist: 'Akon', lang: 'English' },
-      { title: 'Kabira', artist: 'Yeh Jawaani Hai Deewani', lang: 'Hindi' },
-      { title: 'Luka Chuppi', artist: 'Rang De Basanti', lang: 'Hindi' },
-      { title: 'Syndicate', artist: 'Bipul Chettri', lang: 'Nepali' }
+      { title: 'Hold On', artist: 'Justin Bieber', lang: 'English' },
+      { title: 'Be Kind', artist: 'Halsey', lang: 'English' },
+      { title: 'Tujhe Kitna Chahne Lage', artist: 'Arijit Singh', lang: 'Hindi' },
+      { title: 'Phir Le Aya Dil', artist: 'Arijit Singh', lang: 'Hindi' },
+      { title: 'Syndicate', artist: 'Bipul Chettri', lang: 'Nepali' },
+      { title: 'Bistarai Bistarai', artist: 'Rohit John Chettri', lang: 'Nepali' }
     ]
   },
   {
@@ -221,10 +224,11 @@ export const moods: MoodData[] = [
     ],
     songs: [
       { title: 'Weightless', artist: 'Marconi Union', lang: 'English' },
-      { title: 'Imagine', artist: 'John Lennon', lang: 'English' },
-      { title: 'Kun Faya Kun', artist: 'Rockstar', lang: 'Hindi' },
-      { title: 'Iktara', artist: 'Wake Up Sid', lang: 'Hindi' },
-      { title: 'Resham Firiri', artist: 'Instrumental', lang: 'Nepali' }
+      { title: 'Holocene', artist: 'Bon Iver', lang: 'English' },
+      { title: 'Kun Faya Kun', artist: 'A.R. Rahman', lang: 'Hindi' },
+      { title: 'Iktara', artist: 'Kavita Seth', lang: 'Hindi' },
+      { title: 'Mero Mana Ma', artist: 'Sushant KC', lang: 'Nepali' },
+      { title: 'Resham Firiri', artist: 'Traditional', lang: 'Nepali' }
     ]
   },
   {
@@ -246,11 +250,12 @@ export const moods: MoodData[] = [
       "Breathe. It's just a bad day, not a bad life."
     ],
     songs: [
-      { title: 'Let It Be', artist: 'The Beatles', lang: 'English' },
-      { title: 'Unwritten', artist: 'Natasha Bedingfield', lang: 'English' },
-      { title: 'Love You Zindagi', artist: 'Dear Zindagi', lang: 'Hindi' },
-      { title: 'Kinare', artist: 'Queen', lang: 'Hindi' },
-      { title: 'Samjhana Birsana', artist: 'Nepathya', lang: 'Nepali' }
+      { title: 'Let It Go', artist: 'James Bay', lang: 'English' },
+      { title: 'Vienna', artist: 'Billy Joel', lang: 'English' },
+      { title: 'Love You Zindagi', artist: 'Jasleen Royal', lang: 'Hindi' },
+      { title: 'Kinare', artist: 'Mohan Kanan', lang: 'Hindi' },
+      { title: 'Samjhana Birsana', artist: 'Nepathya', lang: 'Nepali' },
+      { title: 'Jeevan Ko Pana', artist: 'Sajjan Raj Vaidya', lang: 'Nepali' }
     ]
   },
   {
@@ -272,11 +277,12 @@ export const moods: MoodData[] = [
       "Just do it."
     ],
     songs: [
-      { title: 'Eye of the Tiger', artist: 'Survivor', lang: 'English' },
-      { title: 'Lose Yourself', artist: 'Eminem', lang: 'English' },
-      { title: 'Lakshya', artist: 'Lakshya', lang: 'Hindi' },
-      { title: 'Chak De India', artist: 'Chak De India', lang: 'Hindi' },
-      { title: 'Kehi Mitho', artist: 'Narayan Gopal', lang: 'Nepali' }
+      { title: 'Unstoppable', artist: 'Sia', lang: 'English' },
+      { title: 'Hall of Fame', artist: 'The Script', lang: 'English' },
+      { title: 'Lakshya', artist: 'Shankar Mahadevan', lang: 'Hindi' },
+      { title: 'Chak De India', artist: 'Sukhwinder Singh', lang: 'Hindi' },
+      { title: 'Kehi Mitho', artist: 'Narayan Gopal', lang: 'Nepali' },
+      { title: 'Pagal', artist: 'Prashant Tamang', lang: 'Nepali' }
     ]
   },
   {
@@ -299,10 +305,11 @@ export const moods: MoodData[] = [
     ],
     songs: [
       { title: 'The Scientist', artist: 'Coldplay', lang: 'English' },
-      { title: 'Should I Stay or Should I Go', artist: 'The Clash', lang: 'English' },
-      { title: 'Nadaan Parindey', artist: 'Rockstar', lang: 'Hindi' },
-      { title: 'Aao Milo Chalo', artist: 'Jab We Met', lang: 'Hindi' },
-      { title: 'Bistarai Bistarai', artist: 'Rohit John Chettri', lang: 'Nepali' }
+      { title: 'Wait', artist: 'NF', lang: 'English' },
+      { title: 'Nadaan Parindey', artist: 'Mohit Chauhan', lang: 'Hindi' },
+      { title: 'Aao Milo Chalo', artist: 'Shaan', lang: 'Hindi' },
+      { title: 'Resham', artist: 'Nepathya', lang: 'Nepali' },
+      { title: 'Mayalu', artist: 'Kishore Kumar', lang: 'Nepali' }
     ]
   }
 ];
