@@ -70,7 +70,7 @@ export const teamMembers: Member[] = [
     name: "Prerana Rajbanshi",
     role: "Content Lead",
     description: "Curating content, information, and high-quality prompts.",
-    image: "/static/Screenshot_from_2026-02-20_10-58-49_1771564784548.png",
+    image: "/static/Screenshot_from_2026-02-20_11-11-30_1771565215994.png",
     socials: { 
       facebook: "https://www.facebook.com/prerana.rajbanshi" 
     }
