@@ -51,7 +51,7 @@ export const teamMembers: Member[] = [
     name: "Aayush Rajbhandari",
     role: "Frontend Developer",
     description: "Overall development of the platform and frontend architecture.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aayush",
+    image: "/static/Screenshot_from_2026-02-20_10-47-39_1771564766664.png",
     socials: { 
       instagram: "https://www.instagram.com/rajbhandariayush/", 
       linkedin: "https://www.linkedin.com/in/aayush-rajbhandari-2b7521399/" 
@@ -60,8 +60,8 @@ export const teamMembers: Member[] = [
   {
     name: "Aadesh Raj Gurung",
     role: "UI Auditor",
-    description: "Responsible for rating, seeing interfaces, and providing expert tips.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aadesh",
+    description: "Responsible for rating, seeing interfaces, and providing tips.",
+    image: "/static/Screenshot_from_2026-02-20_10-48-07_1771564775279.png",
     socials: { 
       instagram: "https://www.instagram.com/_argrg/" 
     }
@@ -70,7 +70,7 @@ export const teamMembers: Member[] = [
     name: "Prerana Rajbanshi",
     role: "Content Lead",
     description: "Curating content, information, and high-quality prompts.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Prerana",
+    image: "/static/Screenshot_from_2026-02-20_10-58-49_1771564784548.png",
     socials: { 
       facebook: "https://www.facebook.com/prerana.rajbanshi" 
     }
@@ -79,7 +79,7 @@ export const teamMembers: Member[] = [
     name: "Anmol Bista",
     role: "Design Modeler",
     description: "Overall rating, modeling, and physical wireframe design.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Anmol",
+    image: "/static/Screenshot_from_2026-02-20_10-48-25_1771564794145.png",
     socials: { 
       instagram: "https://www.instagram.com/anmolbista7771/" 
     }
@@ -87,8 +87,8 @@ export const teamMembers: Member[] = [
   {
     name: "Vision Bohara",
     role: "Quality Assurance",
-    description: "Overall rating and project validation expert.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Vision",
+    description: "Overall rating and project validation.",
+    image: "/static/Screenshot_from_2026-02-20_10-48-46_1771564805609.png",
     socials: { 
       facebook: "https://www.facebook.com/vision.bohara7" 
     }
@@ -274,7 +274,7 @@ export const moods: MoodData[] = [
       "Action is the foundational key to all success.",
       "Don't wait. The time will never be just right.",
       "Your limitation—it's only your imagination.",
-      "Just do it."
+      "Don't give up."
     ],
     songs: [
       { title: 'Unstoppable', artist: 'Sia', lang: 'English' },
